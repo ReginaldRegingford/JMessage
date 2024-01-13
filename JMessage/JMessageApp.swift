@@ -3,7 +3,7 @@
 //  JMessage
 //
 //  Created by ReginaldRegingford on 1/13/24.
-//
+// Application for messaging with Google Messages
 
 import SwiftUI
 
