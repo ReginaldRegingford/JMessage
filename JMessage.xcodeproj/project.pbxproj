@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED6FFB5A2B5266F900480DA9 /* JMessageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FFB592B5266F900480DA9 /* JMessageApp.swift */; };
+		ED6FFB5C2B5266F900480DA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FFB5B2B5266F900480DA9 /* ContentView.swift */; };
+		ED6FFB5E2B5266FA00480DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6FFB5D2B5266FA00480DA9 /* Assets.xcassets */; };
+		ED6FFB612B5266FA00480DA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6FFB602B5266FA00480DA9 /* Preview Assets.xcassets */; };
+		ED6FFB6C2B5266FA00480DA9 /* JMessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FFB6B2B5266FA00480DA9 /* JMessageTests.swift */; };
+		ED6FFB762B5266FA00480DA9 /* JMessageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FFB752B5266FA00480DA9 /* JMessageUITests.swift */; };
+		ED6FFB782B5266FA00480DA9 /* JMessageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FFB772B5266FA00480DA9 /* JMessageUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED6FFB682B5266FA00480DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6FFB4E2B5266F900480DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6FFB552B5266F900480DA9;
+			remoteInfo = JMessage;
+		};
+		ED6FFB722B5266FA00480DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6FFB4E2B5266F900480DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6FFB552B5266F900480DA9;
+			remoteInfo = JMessage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED6FFB562B5266F900480DA9 /* JMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6FFB592B5266F900480DA9 /* JMessageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMessageApp.swift; sourceTree = "<group>"; };
+		ED6FFB5B2B5266F900480DA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED6FFB5D2B5266FA00480DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED6FFB602B5266FA00480DA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED6FFB622B5266FA00480DA9 /* JMessage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JMessage.entitlements; sourceTree = "<group>"; };
+		ED6FFB672B5266FA00480DA9 /* JMessageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMessageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6FFB6B2B5266FA00480DA9 /* JMessageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMessageTests.swift; sourceTree = "<group>"; };
+		ED6FFB712B5266FA00480DA9 /* JMessageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMessageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6FFB752B5266FA00480DA9 /* JMessageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMessageUITests.swift; sourceTree = "<group>"; };
+		ED6FFB772B5266FA00480DA9 /* JMessageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMessageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED6FFB532B5266F900480DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FFB642B5266FA00480DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FFB6E2B5266FA00480DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED6FFB4D2B5266F900480DA9 = {
+			isa = PBXGroup;
+			children = (
+				ED6FFB582B5266F900480DA9 /* JMessage */,
+				ED6FFB6A2B5266FA00480DA9 /* JMessageTests */,
+				ED6FFB742B5266FA00480DA9 /* JMessageUITests */,
+				ED6FFB572B5266F900480DA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED6FFB572B5266F900480DA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6FFB562B5266F900480DA9 /* JMessage.app */,
+				ED6FFB672B5266FA00480DA9 /* JMessageTests.xctest */,
+				ED6FFB712B5266FA00480DA9 /* JMessageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6FFB582B5266F900480DA9 /* JMessage */ = {
+			isa = PBXGroup;
+			children = (
+				ED6FFB592B5266F900480DA9 /* JMessageApp.swift */,
+				ED6FFB5B2B5266F900480DA9 /* ContentView.swift */,
+				ED6FFB5D2B5266FA00480DA9 /* Assets.xcassets */,
+				ED6FFB622B5266FA00480DA9 /* JMessage.entitlements */,
+				ED6FFB5F2B5266FA00480DA9 /* Preview Content */,
+			);
+			path = JMessage;
+			sourceTree = "<group>";
+		};
+		ED6FFB5F2B5266FA00480DA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED6FFB602B5266FA00480DA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED6FFB6A2B5266FA00480DA9 /* JMessageTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6FFB6B2B5266FA00480DA9 /* JMessageTests.swift */,
+			);
+			path = JMessageTests;
+			sourceTree = "<group>";
+		};
+		ED6FFB742B5266FA00480DA9 /* JMessageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6FFB752B5266FA00480DA9 /* JMessageUITests.swift */,
+				ED6FFB772B5266FA00480DA9 /* JMessageUITestsLaunchTests.swift */,
+			);
+			path = JMessageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED6FFB552B5266F900480DA9 /* JMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6FFB7B2B5266FA00480DA9 /* Build configuration list for PBXNativeTarget "JMessage" */;
+			buildPhases = (
+				ED6FFB522B5266F900480DA9 /* Sources */,
+				ED6FFB532B5266F900480DA9 /* Frameworks */,
+				ED6FFB542B5266F900480DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMessage;
+			productName = JMessage;
+			productReference = ED6FFB562B5266F900480DA9 /* JMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED6FFB662B5266FA00480DA9 /* JMessageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6FFB7E2B5266FA00480DA9 /* Build configuration list for PBXNativeTarget "JMessageTests" */;
+			buildPhases = (
+				ED6FFB632B5266FA00480DA9 /* Sources */,
+				ED6FFB642B5266FA00480DA9 /* Frameworks */,
+				ED6FFB652B5266FA00480DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6FFB692B5266FA00480DA9 /* PBXTargetDependency */,
+			);
+			name = JMessageTests;
+			productName = JMessageTests;
+			productReference = ED6FFB672B5266FA00480DA9 /* JMessageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED6FFB702B5266FA00480DA9 /* JMessageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6FFB812B5266FA00480DA9 /* Build configuration list for PBXNativeTarget "JMessageUITests" */;
+			buildPhases = (
+				ED6FFB6D2B5266FA00480DA9 /* Sources */,
+				ED6FFB6E2B5266FA00480DA9 /* Frameworks */,
+				ED6FFB6F2B5266FA00480DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6FFB732B5266FA00480DA9 /* PBXTargetDependency */,
+			);
+			name = JMessageUITests;
+			productName = JMessageUITests;
+			productReference = ED6FFB712B5266FA00480DA9 /* JMessageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6FFB4E2B5266F900480DA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					ED6FFB552B5266F900480DA9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					ED6FFB662B5266FA00480DA9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED6FFB552B5266F900480DA9;
+					};
+					ED6FFB702B5266FA00480DA9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED6FFB552B5266F900480DA9;
+					};
+				};
+			};
+			buildConfigurationList = ED6FFB512B5266F900480DA9 /* Build configuration list for PBXProject "JMessage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED6FFB4D2B5266F900480DA9;
+			productRefGroup = ED6FFB572B5266F900480DA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6FFB552B5266F900480DA9 /* JMessage */,
+				ED6FFB662B5266FA00480DA9 /* JMessageTests */,
+				ED6FFB702B5266FA00480DA9 /* JMessageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED6FFB542B5266F900480DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6FFB612B5266FA00480DA9 /* Preview Assets.xcassets in Resources */,
+				ED6FFB5E2B5266FA00480DA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FFB652B5266FA00480DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FFB6F2B5266FA00480DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED6FFB522B5266F900480DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6FFB5C2B5266F900480DA9 /* ContentView.swift in Sources */,
+				ED6FFB5A2B5266F900480DA9 /* JMessageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FFB632B5266FA00480DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6FFB6C2B5266FA00480DA9 /* JMessageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FFB6D2B5266FA00480DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6FFB782B5266FA00480DA9 /* JMessageUITestsLaunchTests.swift in Sources */,
+				ED6FFB762B5266FA00480DA9 /* JMessageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED6FFB692B5266FA00480DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6FFB552B5266F900480DA9 /* JMessage */;
+			targetProxy = ED6FFB682B5266FA00480DA9 /* PBXContainerItemProxy */;
+		};
+		ED6FFB732B5266FA00480DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6FFB552B5266F900480DA9 /* JMessage */;
+			targetProxy = ED6FFB722B5266FA00480DA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED6FFB792B5266FA00480DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED6FFB7A2B5266FA00480DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ED6FFB7C2B5266FA00480DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JMessage/JMessage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JMessage/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JApps.JMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED6FFB7D2B5266FA00480DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JMessage/JMessage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JMessage/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JApps.JMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ED6FFB7F2B5266FA00480DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JApps.JMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMessage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JMessage";
+			};
+			name = Debug;
+		};
+		ED6FFB802B5266FA00480DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JApps.JMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMessage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JMessage";
+			};
+			name = Release;
+		};
+		ED6FFB822B5266FA00480DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JApps.JMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JMessage;
+			};
+			name = Debug;
+		};
+		ED6FFB832B5266FA00480DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JApps.JMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JMessage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED6FFB512B5266F900480DA9 /* Build configuration list for PBXProject "JMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6FFB792B5266FA00480DA9 /* Debug */,
+				ED6FFB7A2B5266FA00480DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6FFB7B2B5266FA00480DA9 /* Build configuration list for PBXNativeTarget "JMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6FFB7C2B5266FA00480DA9 /* Debug */,
+				ED6FFB7D2B5266FA00480DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6FFB7E2B5266FA00480DA9 /* Build configuration list for PBXNativeTarget "JMessageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6FFB7F2B5266FA00480DA9 /* Debug */,
+				ED6FFB802B5266FA00480DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6FFB812B5266FA00480DA9 /* Build configuration list for PBXNativeTarget "JMessageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6FFB822B5266FA00480DA9 /* Debug */,
+				ED6FFB832B5266FA00480DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED6FFB4E2B5266F900480DA9 /* Project object */;
+}
